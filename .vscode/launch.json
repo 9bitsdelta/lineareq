@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run app (debug)",
+            "program": "${workspaceFolder}/bin/Debug/lineareq",
+            "request": "launch",
+            "type": "cppdbg",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Make all (debug)",
+            "MIMode": "gdb"
+        },
+    ],
+}
+
