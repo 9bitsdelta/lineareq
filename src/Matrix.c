@@ -7,7 +7,7 @@
  * INPUT & OUTPUT
  */
 
-double** fscan_mat(FILE* file, int rows, int cols
+double** fscan_mat(FILE* file, int rows, int cols)
 {
     double** mat;
     mat = malloc(sizeof(double*)*rows);
